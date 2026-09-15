@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300" role="img" aria-labelledby="title desc">
+<title id="title">Digital Vault</title><desc id="desc">AES-256 encryption and steganography</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#39c5cf" stop-opacity=".32"/><stop offset="1" stop-color="#39c5cf" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#30363d" stroke-opacity=".35"/></pattern>
+</defs>
+<rect width="640" height="300" rx="22" fill="url(#bg)"/>
+<rect width="640" height="300" rx="22" fill="url(#grid)"/>
+<circle cx="520" cy="90" r="190" fill="url(#glow)"/>
+<g transform="translate(455 58)" stroke="#39c5cf" fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path d="M70 0l55 20v42c0 42-23 71-55 91C38 133 15 104 15 62V20z"/><rect x="45" y="55" width="50" height="45" rx="8"/><path d="M56 55V41c0-20 28-20 28 0v14"/><circle cx="70" cy="76" r="5" fill="#39c5cf" stroke="none"/></g>
+<rect x="38" y="38" width="54" height="5" rx="2.5" fill="#39c5cf"/>
+<text x="38" y="196" fill="#f0f6fc" font-family="system-ui,Segoe UI,sans-serif" font-size="30" font-weight="700">Digital Vault</text>
+<text x="38" y="230" fill="#8b949e" font-family="system-ui,Segoe UI,sans-serif" font-size="17">AES-256 encryption and steganography</text>
+<rect x="38" y="254" width="132" height="30" rx="15" fill="#39c5cf" fill-opacity=".13" stroke="#39c5cf" stroke-opacity=".55"/>
+<text x="104" y="275" text-anchor="middle" fill="#39c5cf" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="600">VIEW PROJECT</text>
+</svg>
