@@ -62,16 +62,4 @@ I'm **Naji Youssef**, an AI and machine-learning developer focused on turning mo
 
 </div>
 
-## Contribution graph
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nj-ysf/nj-ysf/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nj-ysf/nj-ysf/output/github-snake.svg" />
-  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/nj-ysf/nj-ysf/output/github-snake-dark.svg" />
-</picture>
-
-</div>
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=120&section=footer" width="100%" />
