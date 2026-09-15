@@ -2,37 +2,32 @@ name: Generate contribution snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */24 * * *"
   workflow_dispatch:
   push:
     branches:
       - main
 
-permissions:
-  contents: write
-
-concurrency:
-  group: contribution-snake
-  cancel-in-progress: true
-
 jobs:
   generate:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 5
 
     steps:
-      - name: Generate light and dark snake assets
-        uses: Platane/snk@v3
+      - name: Generate contribution-grid snake
+        uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: nj-ysf
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Publish assets to output branch
-        uses: crazy-max/ghaction-github-pages@v3
+      - name: Publish snake to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          build_dir: dist
           target_branch: output
+          build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
