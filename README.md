@@ -62,14 +62,14 @@ I'm **Naji Youssef**, an AI and machine-learning developer focused on turning mo
 
 </div>
 
-## Contribution snake
+## Contribution graph
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nj-ysf/nj-ysf/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nj-ysf/nj-ysf/output/github-snake.svg" />
-  <img alt="Animated GitHub contribution snake" src="https://raw.githubusercontent.com/nj-ysf/nj-ysf/output/github-snake-dark.svg" width="900" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nj-ysf/nj-ysf/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nj-ysf/nj-ysf/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake animation moving through Naji Youssef's GitHub contribution grid" src="https://raw.githubusercontent.com/nj-ysf/nj-ysf/output/github-contribution-grid-snake.svg" />
 </picture>
 
 </div>
